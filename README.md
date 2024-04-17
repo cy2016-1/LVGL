@@ -1,39 +1,18 @@
-# ESP32_LVGL
+# LVGL9.0 说明文件
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+本项目提供了LVGL9.0的教学文件，适用于使用Arduino IDE与ESP32开发板。视频教程可在 [Bilibili伊娃老师来了（点我跳转）](https://space.bilibili.com/7503488) 搜索“伊娃老师来了”，也可以通过链接访问。
 
-#### 软件架构
-软件架构说明
+## 项目使用的硬件
 
+- ESP32 Wroom32 开发板
+- ILI9341 2.4 寸 240x320 触摸显示屏
 
-#### 安装教程
+## 文件夹说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### LVGL设定文件
 
-#### 使用说明
+在这个文件夹中，你可以找到可以直接复制使用的LVGL文件。这些文件是为了帮助你快速搭建LVGL图形界面。建议参考视频教程 [《零基础也能成功的LVGL图形界面编程，最新9.0版本今天就学会》（点我跳转）](https://www.bilibili.com/video/BV1Dz421D7u6/?spm_id_from=333.999.0.0)，了解如何使用这些文件。
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### LVGL 触摸屏范例
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+这个文件夹包含了修改过的官方代码文件，你可以直接使用官方案例 `DEMO_WIDGETS`。在使用之前，请确保你已经使用 TFT_eSPI 库对触摸屏进行了校准。
